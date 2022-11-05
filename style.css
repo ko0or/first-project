@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    transition: all 0.08s;
+}
+a { text-decoration: none; color: #000;}
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.nav {
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+.nav > ul li {
+    display: inline;
+    margin: 0px 100px;
+}
+.nav li:hover {
+    color:blue;
+    border-bottom: 3px solid blue;
+    cursor:pointer;
+}
+
+.section {
+    width: 100%;
+}
+
+.top-btn {
+    top: 10px;
+}
+.bottom-btn {
+    bottom: 10px;
+}
+.top-btn, .bottom-btn {
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    background-color:antiquewhite;
+    border-radius: 15px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+.top-btn:hover, .bottom-btn:hover {
+    opacity: 1.0;
+}
+
+
+article {
+    border: 1px solid rgb(235, 232, 232);
+    /* height: 300px; */
+    width: 900px;
+    margin: 50px auto;
+}
+
+article h1 {
+    text-align: center;
+    font-size: 48px;
+}
+.banner {
+    margin: 200px 0px;
+    text-align: center;
+}
+
+.profile { 
+    margin: 200px 0px;
+    height: 300px;
+    display: flex;
+}
+.profile img {
+    flex: 1;
+    
+}
+.profile p {
+    margin: 20px 50px;
+    margin-top: 20px;
+    line-height: 55px;
+    font-weight: bold;
+    flex: 2;    
+}
+
+.skill {
+    margin: 200px 0px;
+    text-align: center;
+}
+
+.items {
+    width: 90%;
+    margin: auto auto;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    line-height: 100px;
+}
+.items .box {
+    flex: 1;
+    height: 100px;
+}
+
+.items .box:not(:last-child) {
+    border-right: 1px solid rgb(235, 232, 232);
+
+}
+
+
+
+.about {
+    margin: 200px 0px;
+    text-align: center;
+}
+
+.contact {
+    margin: 200px 0px;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    margin: 100px auto;
+}
